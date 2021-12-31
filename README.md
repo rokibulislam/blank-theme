@@ -11,3 +11,9 @@ After Clone reponrun
 npm install
 ```
 
+For check phpcs
+```bash
+composer phpcs
+composer phpcbf
+```
+
