@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+   <description>PHP_CodeSniffer ruleset.</description>
+
+    <!-- <rule ref="WordPress-Core">
+        <exclude name="Generic.WhiteSpace.DisallowSpaceIndent"/>
+    </rule> -->
+
+    <!-- Exclude paths -->
+   <exclude-pattern>*/node_modules/*</exclude-pattern>
+   <exclude-pattern>*/vendor/*</exclude-pattern>
+   <exclude-pattern>*/tests/*</exclude-pattern>
+   <exclude-pattern>*/build/*</exclude-pattern>
+   <exclude-pattern>*/assets/*</exclude-pattern>
+
+    <config name="testVersion" value="7.4-" />
+    <config name="minimum_supported_wp_version" value="5.6"/>
+
+    <arg name="report" value="full" />
+    <arg name="report-file" value="phpcs-report.txt" />
+    <arg name="warning-severity" value="0" />
+
+    <!-- Check all PHP files in directory tree by default. -->
+    <arg name="extensions" value="php" />
+    <!-- <arg name="extensions" value="html" /> -->
+    <file>.</file>
+
+    <!-- <rule ref="WordPress.DB" /> -->
+    <rule ref="WordPress" />
+    <!-- <rule ref="WordPress.VIP" /> -->
+
+    <rule ref="WordPress.Security" />
+
+    <rule ref="PHPCompatibility"/>
+
+    <!-- ... -->
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <!-- Value: replace the text domain used. -->
+            <property name="text-domain" type="array" value="blank-theme"/>
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.Files.FileName">
+		<properties>
+			<property name="is_theme" value="true"/>
+		</properties>
+	</rule>
+
+    <!-- Verify that everything in the global namespace is prefixed with a theme specific prefix.
+		 Multiple valid prefixes can be provided as a comma-delimited list. -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array" value="blank_theme, BLANK_THEME" />
+		</properties>
+	</rule>
+
+</ruleset>

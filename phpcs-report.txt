@@ -1,0 +1,308 @@
+
+FILE: ...l/sites/wpassignment/wp-content/themes/blank-theme/functions.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | Missing file doc comment
+   |       | (Squiz.Commenting.FileComment.Missing)
+----------------------------------------------------------------------
+
+
+FILE: ...rokibul/sites/wpassignment/wp-content/themes/blank-theme/404.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 23 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...kibul/sites/wpassignment/wp-content/themes/blank-theme/index.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+  6 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+  8 | ERROR | [x] Line indented incorrectly; expected 2 tabs, found
+    |       |     3
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  9 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 10 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 10 | ERROR | [x] Newline required after opening brace
+    |       |     (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 13 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 22 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     2
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 22 | ERROR | [x] Closing PHP tag must be on a line by itself
+    |       |     (Squiz.PHP.EmbeddedPhp.ContentAfterEnd)
+ 26 | ERROR | [ ] Inline comments must end in full-stops, exclamation
+    |       |     marks, or question marks
+    |       |     (Squiz.Commenting.InlineComment.InvalidEndChar)
+ 31 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...bul/sites/wpassignment/wp-content/themes/blank-theme/archive.php
+----------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 15 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 16 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 16 | ERROR | [x] Newline required after opening brace
+    |       |     (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 19 | ERROR | [x] Closing PHP tag must be on a line by itself
+    |       |     (Squiz.PHP.EmbeddedPhp.ContentAfterEnd)
+ 29 | ERROR | [ ] Inline comments must end in full-stops, exclamation
+    |       |     marks, or question marks
+    |       |     (Squiz.Commenting.InlineComment.InvalidEndChar)
+ 33 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ibul/sites/wpassignment/wp-content/themes/blank-theme/search.php
+----------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 20 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 20 | ERROR | [x] Newline required after opening brace
+    |       |     (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 26 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     2
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 26 | ERROR | [x] Closing PHP tag must be on a line by itself
+    |       |     (Squiz.PHP.EmbeddedPhp.ContentAfterEnd)
+ 30 | ERROR | [ ] Inline comments must end in full-stops, exclamation
+    |       |     marks, or question marks
+    |       |     (Squiz.Commenting.InlineComment.InvalidEndChar)
+ 34 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ibul/sites/wpassignment/wp-content/themes/blank-theme/header.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  7 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 13 | ERROR | [x] Line indented incorrectly; expected 0 tabs, found
+    |       |     1
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 15 | ERROR | [x] Line indented incorrectly; expected 0 tabs, found
+    |       |     1
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 24 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 25 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 27 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 36 | ERROR | [x] Short array syntax is not allowed
+    |       |     (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 43 | ERROR | [x] Line indented incorrectly; expected 4 tabs, found
+    |       |     3
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 49 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ontent/themes/blank-theme/page-templates/full-width-template.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 23 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../wp-content/themes/blank-theme/template-parts/content-single.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [ ] Missing file doc comment
+   |       |     (Squiz.Commenting.FileComment.Missing)
+ 1 | ERROR | [x] File must end with a newline character
+   |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...nt/wp-content/themes/blank-theme/template-parts/content-none.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 23 | ERROR | [x] Short array syntax is not allowed
+    |       |     (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 24 | ERROR | [x] Short array syntax is not allowed
+    |       |     (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 25 | ERROR | [x] Short array syntax is not allowed
+    |       |     (Generic.Arrays.DisallowShortArraySyntax.Found)
+ 47 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...nt/wp-content/themes/blank-theme/template-parts/content-page.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [ ] Missing file doc comment
+   |       |     (Squiz.Commenting.FileComment.Missing)
+ 1 | ERROR | [x] File must end with a newline character
+   |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ignment/wp-content/themes/blank-theme/template-parts/content.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 22 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../wp-content/themes/blank-theme/template-parts/content-search.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | [ ] Missing file doc comment
+   |       |     (Squiz.Commenting.FileComment.Missing)
+ 1 | ERROR | [x] File must end with a newline character
+   |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ibul/sites/wpassignment/wp-content/themes/blank-theme/footer.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 21 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ibul/sites/wpassignment/wp-content/themes/blank-theme/single.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 25 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 29 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+ 29 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...okibul/sites/wpassignment/wp-content/themes/blank-theme/page.php
+----------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+  6 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+  7 | ERROR | [x] Line indented incorrectly; expected 2 tabs, found
+    |       |     3
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+  7 | ERROR | [x] Newline required after opening brace
+    |       |     (Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace)
+ 12 | ERROR | [x] Line indented incorrectly; expected 3 tabs, found
+    |       |     4
+    |       |     (Generic.WhiteSpace.ScopeIndent.IncorrectExact)
+ 17 | ERROR | [x] Closing PHP tag must be on a line by itself
+    |       |     (Squiz.PHP.EmbeddedPhp.ContentAfterEnd)
+ 23 | ERROR | [x] Whitespace found at end of line
+    |       |     (Squiz.WhiteSpace.SuperfluousWhitespace.EndLine)
+ 25 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 7 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...bul/sites/wpassignment/wp-content/themes/blank-theme/sidebar.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 1 | ERROR | [ ] Missing file doc comment
+   |       |     (Squiz.Commenting.FileComment.Missing)
+ 8 | ERROR | [x] File must end with a newline character
+   |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../sites/wpassignment/wp-content/themes/blank-theme/searchform.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR | [ ] Missing file doc comment
+    |       |     (Squiz.Commenting.FileComment.Missing)
+ 12 | ERROR | [x] File must end with a newline character
+    |       |     (Generic.Files.EndFileNewline.NotFound)
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
